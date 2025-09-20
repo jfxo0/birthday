@@ -13,7 +13,7 @@ const CONFIG = {
   giftItems: [
     // { label: "A playlist I made for you", href: "https://open.spotify.com/", note: "Press play & think of me" },
     { label: "Some robux for you", href: "", note: "So you can play with ur sidehoes 💙" },
-    { label: "Some nitro for you", href: "../img/nitro.pdf", note: "So you can talk with ur sidehoes 💙" },
+    { label: "Some nitro for you", href: "img/nitro.pdf", note: "So you can talk with ur sidehoes 💙" },
     { label: "Special note from me", href: "../note.html", note: "Because you really love it 😯" }
   ],
   quiz: [
