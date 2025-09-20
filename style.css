@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    /* background: #746f8e; */
+    background-image: url("https: //i.pinimg.com/1200x/ce/37/da/ce37da0a81af0c44fb993ff2e5f5ce21.jpg");
+}
+
+.wrap {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background: rgb(167, 160, 199);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.btn {
+    padding: 10px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.app {
+    display: none;
+    margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(206, 197, 245);
+    cursor: pointer;
+    text-align: center;
+}
+
+.tab.active {
+    background: #bdc4d3;
+}
+
+.panel {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+}

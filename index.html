@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday 💙</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="hero" id="hero">
+        <h1 class="title">Happy Birthday, <span id="bfName"></span> 🎂💙</h1>
+        <p class="subtitle">today is another important turning point in ur life</p>
+        <button class="btn" id="openCard">Open </button>
+        <div style="margin-top:10px"><button class="btn secondary" id="muteToggle" aria-pressed="true">🔊 Music
+            On</button></div>
+      </div>
+    </header>
+
+    <!-- App Shell -->
+    <div class="app" id="app">
+      <nav class="nav">
+        <button class="tab active" data-tab="letter"> Letters</button>
+        <button class="tab" data-tab="gift"> Gifts</button>
+        <button class="tab" data-tab="quiz">Quiz</button>
+        <button class="tab" data-tab="count"> Countdown</button>
+        <button class="tab" data-tab="generator"> reasons why i love you</button>
+      </nav>
+
+      <section class="grid">
+        <div class="panel" id="panel-letter"></div>
+        <div class="panel" id="panel-gift" hidden></div>
+        <div class="panel" id="panel-quiz" hidden></div>
+        <div class="panel" id="panel-count" hidden></div>
+        <div class="panel" id="panel-generator" hidden></div>
+      </section>
+    </div>
+
+    <footer>
+      Made with love by <span id="senderName"></span>.
+    </footer>
+  </div>
+
+  <audio id="bgm" loop preload="auto">
+    <source src="music\get_you.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
