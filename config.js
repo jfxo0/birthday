@@ -1,7 +1,7 @@
 const CONFIG = {
   boyfriendName: "Zen",
   senderName: "your pretty girlfriend 💗",
-  countdownTitle: "20 🎉",
+  countdownTitle: "18 🎉",
   countdownTo: "2025-09-21T00:00:00",
   messages: [
     "Happy Birthday, my love <3 May your wishes come true.",
