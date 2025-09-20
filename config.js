@@ -14,7 +14,7 @@ const CONFIG = {
     // { label: "A playlist I made for you", href: "https://open.spotify.com/", note: "Press play & think of me" },
     { label: "Some robux for you", href: "img/robux.pdf", note: "So you can play with ur sidehoes 💙" },
     { label: "Some nitro for you", href: "img/nitro.pdf", note: "So you can talk with ur sidehoes 💙" },
-    { label: "Special note from me", href: "../note.html", note: "Because you really love it 😯" }
+    { label: "Special note from me", href: "note.html", note: "Because you really love it 😯" }
   ],
   quiz: [
     { q: "My ideal date  is…", options: ["Gaming + snacks", "Fancy dinner", "Food all day", "Movie + blanket fort"], answer: 2 },
